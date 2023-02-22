@@ -2,10 +2,10 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // create our Location model
-class tag extends Model {}
+class Tag extends Model {}
 
 // create fields/columns for Location model
-tag.init(
+Tag.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -26,4 +26,4 @@ tag.init(
   }
 );
 
-module.exports = Category;
+module.exports = Tag;
