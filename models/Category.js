@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-// create our Location model
+// create our Category model
 class Category extends Model {}
 
 // create fields/columns for Location model

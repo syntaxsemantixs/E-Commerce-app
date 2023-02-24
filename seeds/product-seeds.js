@@ -1,26 +1,26 @@
 const { Product } = require('../models');
-
+// product data with name, price , stock and category id.
 const productData = [
   {
-    product_name: 'Plain T-Shirt',
+    product_name: 'T-Shirt',
     price: 14.99,
     stock: 14,
     category_id: 1,
   },
   {
-    product_name: 'Running Sneakers',
+    product_name: 'Sneakers',
     price: 90.0,
     stock: 25,
     category_id: 5,
   },
   {
-    product_name: 'Branded Baseball Hat',
+    product_name: 'Bucket Hat',
     price: 22.99,
     stock: 12,
     category_id: 4,
   },
   {
-    product_name: 'Top 40 Music Compilation Vinyl Record',
+    product_name: 'Top Hits Music Vinyl Record',
     price: 12.99,
     stock: 50,
     category_id: 3,

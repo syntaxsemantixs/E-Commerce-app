@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
-
+//sequelize to login and connect to the mySQL database.
 let sequelize;
 
 {
